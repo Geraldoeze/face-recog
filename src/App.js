@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Logo />
-      <ImageLinkForm />
-      <FaceRecogniton/>
+      {/* <ImageLinkForm />
+      <FaceRecogniton/> */}
     </div>
   );
 }
