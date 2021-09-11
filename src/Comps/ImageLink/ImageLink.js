@@ -8,5 +8,4 @@ const ImageLink = () => {
     );
 }
  
-export default ImageLink
-;
+export default ImageLink;
