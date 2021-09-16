@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './Comps/Navigation/Navigation';
 import Logo from './Comps/Logo/Logo';
 import ImageLink from './Comps/ImageLink/ImageLink';
+import FaceRecogniton from './Comps/Face-rec/Face-recognition' 
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navigation />
       <Logo />
        <ImageLink />
-      {/* <FaceRecogniton/>  */}
+       <FaceRecogniton/> 
     </div>
   );
 }

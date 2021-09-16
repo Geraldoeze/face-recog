@@ -2,7 +2,7 @@ const Logo = () => {
     return (
         <div>
             <h1>
-                Logo
+                Logo Image for desktop
             </h1>
         </div>
       );

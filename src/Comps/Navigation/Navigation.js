@@ -2,7 +2,7 @@ const Navigation = () => {
     return (  
         <div> 
             <nav>
-                <p>Sign Out</p>
+                <p>Sign Out click here </p>
             </nav>
         </div>
     );
