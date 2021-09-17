@@ -1,8 +1,9 @@
+
 const Navigation = () => {
     return (  
         <div> 
-            <nav>
-                <p>Sign Out click here </p>
+            <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <p className='f3 link dim black pa3 pointer'>Sign Out click here </p>
             </nav>
         </div>
     );

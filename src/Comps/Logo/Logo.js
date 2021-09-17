@@ -1,9 +1,12 @@
+import Tilt from 'react-tilt'
+
 const Logo = () => {
     return (
-        <div>
-            <h1>
-                Logo Image for desktop
-            </h1>
+        <div  className='ma4 mt0'>
+        <Tilt className="Tilt br2 shadow-2 " options={{ max : 25 }} style={{ height: 120, width: 100 }} >
+        <div className="Tilt-inner"> 👽 </div>
+        </Tilt>    
+            
         </div>
       );
 }
