@@ -6,4 +6,4 @@ const FaceRecognition = () =>{
     );
 };
 
-export default FaceRecognition
+export default FaceRecognition;
