@@ -6,6 +6,7 @@ import ImageLink from './Comps/ImageLink/ImageLink';
 import FaceRecognition from './Comps/Face-rec/Face-recognition'
 import Rank from './Comps/Rank/Rank'
 import { Component } from 'react';
+import SignIn from './Comps/SignIn/SignIn';
 
 
 
@@ -20,13 +21,20 @@ class App extends Component {
   onInputChange = (event) => {
     console.log(event.target.value)
   }
+
+  onButtonSubmit =() => {
+    console.log('click')
+  }
     render() {
       return (
         <div>
           <Navigation />
+          <SignIn />
           <Logo />
           <Rank />
-          <ImageLink onInputChange={this.onInputChange}/>
+          <ImageLink 
+          onButtonSubmit={this.onButtonSubmit}
+          onInputChange={this.onInputChange}/>
           <FaceRecognition/>
         </div>
       );
